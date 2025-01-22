@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# HomeSpan
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern **real estate** mobile application built with **Expo**, **TypeScript**, and **NativeWind**, leveraging **Appwrite** as a powerful backend service. **HomeSpan** aims to simplify real estate listings, property searches, and user management in a sleek and efficient way.
 
-## Get started
+---
 
-1. Install dependencies
+## Overview
 
-   ```bash
-   npm install
-   ```
+HomeSpan is designed to make property hunting and management effortless. Whether you’re looking to rent a cozy apartment in the city or sell a luxurious mansion on the beach, HomeSpan has you covered. Built with scalability, performance, and responsiveness in mind, HomeSpan uses **Appwrite** as its backend for secure user authentication and robust data handling, while **NativeWind** brings efficient and expressive styling.
 
-2. Start the app
+> **Why HomeSpan?**
+>
+> - **Modern UI**: Powered by NativeWind for a consistent, fast, and flexible user interface.
+> - **Secure & Scalable**: Backed by Appwrite's reliable data and authentication features.
+> - **Cross-Platform**: Developed with Expo & TypeScript to easily run on Android, iOS, and Web.
 
-   ```bash
-    npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **User Authentication**: Secure login and registration powered by Appwrite.
+- **Property Listings**: Create, read, update, and delete property listings (CRUD).
+- **Advanced Search**: Filter properties by location, price, and amenities.
+- **Favorite Listings**: Users can bookmark and manage a favorite properties list.
+- **Push Notifications**: Stay updated with the latest property listings, offers, or user interactions.
+- **Responsive UI**: Stylish, adaptive layouts with NativeWind for a polished look across devices.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Tech Stack
 
-When you're ready, run:
+- **Frontend**:
+  - [Expo](https://expo.dev/) (React Native framework)
+  - [TypeScript](https://www.typescriptlang.org/) (static typing and maintainable code)
+  - [NativeWind](https://www.nativewind.dev/) (Tailwind CSS for React Native)
+- **Backend**:
+  - [Appwrite](https://appwrite.io/) (authentication, database, and functions)
+- **Tools & Services**:
+  - [Expo CLI](https://docs.expo.dev/workflow/expo-cli/)
+  - [ESLint & Prettier](https://eslint.org/) (code linting and formatting)
+  - [GitHub Actions / CI](https://docs.github.com/actions) (optional continuous integration)
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
