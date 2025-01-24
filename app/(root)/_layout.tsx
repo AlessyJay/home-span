@@ -16,7 +16,6 @@ const AppLayout = () => {
   }
 
   if (!isLoggedIn) return <Redirect href="/sign-in" />;
-
   return <Slot />;
 };
 
